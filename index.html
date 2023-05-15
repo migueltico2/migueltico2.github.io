@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Caixa de Sugestões</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="scripts.js">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        .suggestion-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .suggestion-list li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Caixa de Sugestões</h2>
+        <form id="suggestion-form">
+            <div class="form-group">
+                <label for="name">Nome:</label>
+                <input type="text" class="form-control" id="name" placeholder="Seu nome">
+            </div>
+            <div class="form-group">
+                <label for="suggestion">Sugestão:</label>
+                <textarea class="form-control" id="suggestion" rows="3" placeholder="Digite sua sugestão"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+        <ul id="suggestion-list" class="suggestion-list"></ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

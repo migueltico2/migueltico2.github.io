@@ -1,0 +1,27 @@
+.suggestion-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.suggestion-list li {
+    margin-bottom: 10px;
+}
+
+.container {
+    max-width: 500px;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.container {
+    max-width: 250px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 0 auto; 
+    text-align: center; 
+    background-color: khaki; 
+}
+
+h2 {
+    font-size: 24px; 
+}
